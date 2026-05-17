@@ -1,8 +1,9 @@
+import { useParams } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import { DESTINATIONS } from './Destinations'
 
 function DestinationDetail() {
-  // TODO: const { id } = useParams()
+  const { id } = useParams()
   // TODO: const destination = DESTINATIONS.find(d => d.id === Number(id))
   // TODO: if (!destination) return <Navigate to="/destinations" replace />
 
